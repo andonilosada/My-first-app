@@ -6,7 +6,14 @@ namespace My_first_app
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            suma(5, 4);
         }
+
+        public static void suma(int a, int b)
+        {
+            Console.WriteLine("El resultado es : " + (a + b));
+
+        }
+        
     }
 }
